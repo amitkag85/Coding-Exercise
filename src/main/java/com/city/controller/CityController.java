@@ -1,4 +1,4 @@
-package com.route;
+package com.city.controller;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.route.model.City;
-import com.route.model.CityGraph;
-import com.route.model.Constants;
+import com.city.model.City;
+import com.city.model.Constants;
+import com.city.service.CityGraph;
 
 @RestController
 public class CityController {

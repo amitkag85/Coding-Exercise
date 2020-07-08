@@ -1,4 +1,4 @@
-package com.route.model;
+package com.city.model;
 
 public class City {
 

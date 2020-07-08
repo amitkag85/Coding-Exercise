@@ -1,4 +1,4 @@
-package com.route.model;
+package com.city.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,6 +6,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+import com.city.model.City;
+import com.city.model.Constants;
 
 public class CityGraph {
 	public Map<Vertex, List<Vertex>> adjVertices;
@@ -119,17 +122,9 @@ public class CityGraph {
 		return connectionExists;
 	}
 
-	private String checkConnection(CityGraph populateCityGraph, String origin, String destination) {
-		String connectionExists = "No";
-		connectionExists = checkDirectConnection(populateCityGraph, origin, destination);
-		if (connectionExists.equals("No")) {
-			connectionExists = checkIndirectConnection(populateCityGraph, origin, destination);
-		}
-		return connectionExists;
-	}
-	 
 
-	public String checkDirectConnection(CityGraph g, String origin, String destination) {
+
+	public String checkConnection(CityGraph g, String origin, String destination) {
 		String connectionExists = Constants.NO_CONNECTION_EXISTS;
 		List<Vertex> adjVertices2 = g.getAdjVertices(origin);
 		for (Vertex s : adjVertices2) {
@@ -157,7 +152,7 @@ public class CityGraph {
 
 		}
 
-		return Constants.YES_CONNECTION_EXISTS;
+		return Constants.NO_CONNECTION_EXISTS;
 
 	}
 }
