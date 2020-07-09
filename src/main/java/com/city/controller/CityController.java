@@ -7,7 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.apache.tomcat.util.bcel.classfile.Constant;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,14 +17,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.city.model.City;
 import com.city.model.Constants;
-import com.city.service.CityGraph;
 import com.city.service.CityConnectionCheckService;
 
 @RestController
+
 public class CityController {
 
 	@Value("${city.file.path}")
 	public String filePath;
+	
+    private static final Logger LOG = LoggerFactory.getLogger(CityController.class);
+
 	
 	@Autowired
 	CityConnectionCheckService cityService;
@@ -36,7 +40,7 @@ public class CityController {
 			List<City> cityList = linesStream.map(line -> populateCity(line)).collect(Collectors.toList());
 			checkconnection = cityService.checkConnection(cityList, origin, destination);
 		} catch (IOException e) {
-			e.printStackTrace();
+			LOG.error("Exception Occured checkConnectedCity :{}",e.getMessage());
 		}
 
 		return checkconnection;
