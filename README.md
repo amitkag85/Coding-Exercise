@@ -5,9 +5,9 @@ As part of recruitment process for Client Master card, building this project to 
 The project has a restful UI to check if two cities are connected or not, where orgin and destination are passed in the HTTP GET request param.
 Sample Restful UI of this project
 <ul>
-  <li><a href=#>http://localhost:8080/connected?origin=Boston&destination=Newark</a></li>
-  <li><a href=#>http://localhost:8080/connected?origin=Boston&destination=Philadelphia</a></li>
-  <li><a href=#>http://localhost:8080/connected?origin=Philadelphia&destination=Albany</a></li>
+  <li><a href="http://localhost:8080/connected?origin=Boston&destination=Newark"> http://localhost:8080/connected?origin=Boston&destination=Newark </a></li>
+  <li><a href="http://localhost:8080/connected?origin=Boston&destination=Philadelphia"> http://localhost:8080/connected?origin=Boston&destination=Philadelphia </a></li>
+  <li><a href="http://localhost:8080/connected?origin=Philadelphia&destination=Albany"> http://localhost:8080/connected?origin=Philadelphia&destination=Albany </a></li>
 </ul>
   
   
