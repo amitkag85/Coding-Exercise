@@ -44,7 +44,7 @@ Screenshot below captures the Junit and Manual Tesing done.
 <a href=#>https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx </a>
 
 <h1>License</h1>
-Neeraj Kumar
+Neeraj Kumar <a href=#> https://www.linkedin.com/in/kr28neeraj/ </a>
 
 
 
