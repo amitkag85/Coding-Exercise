@@ -3,7 +3,7 @@
 <h1> Motivation </h1>
 As part of recruitment process for Client Master card, building this project to showcase my technical skill in Core Java 8 and Spring Boot.
 The project has a restful UI to check if two cities are connected or not, where orgin and destination are passed in the HTTP GET request param.
-Sample Restful UI of this project
+Sample Restful UI of this project.Note : Please start the Spring Boot Applicaion before trying the below URL.
 <ul>
   <li><a href="http://localhost:8080/connected?origin=Boston&destination=Newark"> http://localhost:8080/connected?origin=Boston&destination=Newark </a></li>
   <li><a href="http://localhost:8080/connected?origin=Boston&destination=Philadelphia"> http://localhost:8080/connected?origin=Boston&destination=Philadelphia </a></li>
