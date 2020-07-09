@@ -16,7 +16,7 @@ Build : Success
 
 
 <h1> Screenshots </h1>
-Running Project and Testing screenshot location -<a href= "https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx">Testing ScreenShot </a>
+To verify the screen shot of the Junit and testing please open the attached microsoft document. -<a href= "https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx">Testing ScreenShot </a>
 
 <h1> Programming Language and Framework used </h1>
 <ul>
