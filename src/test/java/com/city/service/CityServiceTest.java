@@ -8,7 +8,7 @@ import com.city.controller.CityController;
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest({CityController.class})
-public class CityConnectionCheckServiceTest {
+public class CityServiceTest {
 	
 	
 

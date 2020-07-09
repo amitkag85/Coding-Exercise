@@ -35,14 +35,6 @@ public class CityGraph {
 		return adjVertices.get(new Vertex(label));
 	}
 
-	String printGraph() {
-		StringBuffer sb = new StringBuffer();
-		for (Vertex v : adjVertices.keySet()) {
-			sb.append(v);
-			sb.append(adjVertices.get(v));
-		}
-		return sb.toString();
-	}
 
 	class Vertex {
 		String cityName;

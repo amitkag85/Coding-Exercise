@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.city.model.City;
 import com.city.model.Constants;
-import com.city.service.CityConnectionCheckService;
+import com.city.service.CityService;
 
 @RestController
 
@@ -30,7 +30,7 @@ public class CityController {
 
 	
 	@Autowired
-	CityConnectionCheckService cityService;
+	CityService cityService;
 
 	@GetMapping("/connected")
 	public String checkConnectedCity(@RequestParam(value = "origin", required = false) String origin,

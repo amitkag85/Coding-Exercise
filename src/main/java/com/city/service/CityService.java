@@ -14,7 +14,7 @@ import com.city.model.Constants;
 import com.city.service.CityGraph.Vertex;
 
 @Service
-public class CityConnectionCheckService {
+public class CityService {
 
 	@Autowired
 	CityGraph cityGraph;
