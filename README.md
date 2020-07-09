@@ -33,7 +33,7 @@ param origin and destination. <a href = http://localhost:8080/connected?origin=B
 <li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/model/Constants.java">Constants.java</a> - Java Class to hold the constant varaible used in this project. </li>
 <li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/service/CityGraph.java">CityGraph.java</a> - Graph data structure and populated with city data which get loaded from city.txt file.Each vertex in the graph data structure is one city. </li>
 <li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/service/CityService.java">CityService.java</a> - Service class used to write logic for checking the connection between cities.</li>
-<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/resources/city.txt">city.txt</a> - The input text file which has the information of the interconneced cities.</li>
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/resources/city.txt">city.txt</a> - The input text file which has the information of the interconneced cities.</a></li>
 <li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/resources/application.properties>application.properties</a>application properties file to store the properties values used in this project.
 </ul>
 
