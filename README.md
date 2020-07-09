@@ -40,8 +40,8 @@ param origin and destination. <a href = http://localhost:8080/connected?origin=B
 
 <h1>Tests</h1>
 Please run the Junit Test cases CityControllerTest.java.
-Screenshot below captures the Junit and Manual Tesing done. 
-<a href ="https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx"> Testing Screen Shot Document </a>
+This <a href ="https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx"> Testing Screen Shot Document </a>  captures the Junit and Manual Tesing done. 
+
 
 <h1>License</h1>
 Neeraj Kumar <a href="https://www.linkedin.com/in/kr28neeraj"> Linkedin </a>
