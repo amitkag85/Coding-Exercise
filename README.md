@@ -1,7 +1,7 @@
 <h1> Coding Exercise - Master Card </h1>
 
 <h1> Motivation </h1>
-As part of Recuriment process for Client Master card, building this project to showcase my technical skill in Core Java 8 and Spring Boot.
+As part of recruitment process for Client Master card, building this project to showcase my technical skill in Core Java 8 and Spring Boot.
 The project has a restful UI to check if two cities are connected or not, where orgin and destination are passed in the get request param.
 Sample Restful UI of this project
 <ul>
