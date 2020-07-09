@@ -7,7 +7,7 @@ Sample Restful UI
 <ul>
   <li> <a href = http://localhost:8080/connected?origin=Boston&destination=Newark </a> </li>
   <li> <a href = http://localhost:8080/connected?origin=Boston&destination=Philadelphia </a> </li>
-  <li> <a href  http://localhost:8080/connected?origin=Philadelphia&destination=Albany </a> </li>
+  <li> <a href = http://localhost:8080/connected?origin=Philadelphia&destination=Albany </a> </li>
 </ul>
   
   
