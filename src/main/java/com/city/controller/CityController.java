@@ -19,8 +19,12 @@ import com.city.model.City;
 import com.city.model.Constants;
 import com.city.service.CityService;
 
+/**
+ * 
+ * @author NeeraKumar
+ *
+ */
 @RestController
-
 public class CityController {
 
 	@Value("${city.file.path}")

@@ -13,6 +13,11 @@ import com.city.model.City;
 import com.city.model.Constants;
 import com.city.service.CityGraph.Vertex;
 
+/**
+ * This class get provides the logic to check if two cities are connected or not.
+ * @author NeeraKumar
+ *
+ */
 @Service
 public class CityService {
 

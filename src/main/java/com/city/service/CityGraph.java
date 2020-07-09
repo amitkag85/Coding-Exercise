@@ -2,16 +2,16 @@ package com.city.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import org.springframework.stereotype.Component;
 
-import com.city.model.City;
-import com.city.model.Constants;
-
+/**
+ * This class prepares the Graph data structure for cities.
+ * @author NeeraKumar
+ *
+ */
 @Component
 public class CityGraph {
 	public Map<Vertex, List<Vertex>> adjVertices;

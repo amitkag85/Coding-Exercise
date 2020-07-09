@@ -19,11 +19,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.boot.web.server.LocalServerPort;
 
 import com.city.model.City;
 import com.city.service.CityService;
 
+/**
+ * This class get Http Request for checking the connected cities.
+ * @author NeeraKumar
+ *
+ */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc 
 public class CityControllerTest {
@@ -44,6 +48,14 @@ public class CityControllerTest {
 	List<City> citiesList = new ArrayList<>();
 	public static final String filePath = "src/test/resources/city.txt";
 
+	@Test
+	public void checkCityConnection() throws Exception {
+		assertThat(this.restTemplate.getForObject(testUrl1,String.class)).contains("Yes");
+		assertThat(this.restTemplate.getForObject(testUrl2,String.class)).contains("Yes");
+		assertThat(this.restTemplate.getForObject(testUrl3,String.class)).contains("No");
+
+	}
+	
 	
 	@BeforeEach
 	public void setUp() {
@@ -55,13 +67,6 @@ public class CityControllerTest {
 
 	}
 
-	@Test
-	public void checkCityConnection() throws Exception {
-		assertThat(this.restTemplate.getForObject(testUrl1,String.class)).contains("Yes");
-		assertThat(this.restTemplate.getForObject(testUrl2,String.class)).contains("Yes");
-		assertThat(this.restTemplate.getForObject(testUrl3,String.class)).contains("No");
-
-	}
 	
 	@Test
 	public void checkConnectionTest1() {

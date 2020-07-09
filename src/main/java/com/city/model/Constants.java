@@ -1,5 +1,10 @@
 package com.city.model;
 
+/**
+ * 
+ * @author NeeraKumar
+ *
+ */
 public class Constants {
 	
 	public static final String NO_CONNECTION_EXISTS = "No";

@@ -1,5 +1,10 @@
 package com.city.model;
 
+/**
+ * Model Class for City Object.
+ * @author NeeraKumar
+ *
+ */
 public class City {
 
 	private String source;
