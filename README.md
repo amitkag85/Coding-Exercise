@@ -26,14 +26,15 @@ Running Project and Testing screenshot location -<a href=#> https://github.com/n
 
 <h1> Code Example </h1>
 <ul>
-<li>Application.java - Main Spring Boot application file.Please run this to start the Spring Boot Application which by default runs in Tomcat on default port 8080. </li>
-<li>CityController.java - RestController which defines the HTTP GET request for checking the connection between cities.Sample URL below.It accept two request 
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/Application.java">Application.java</a> - Main Spring Boot application file.Please run this to start the Spring Boot Application which by default runs in Tomcat on default port 8080. </li>
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/controller/CityController.java">CityController.java</a> - RestController which defines the HTTP GET request for checking the connection between cities.Sample URL below.It accept two request 
 param origin and destination. <a href = http://localhost:8080/connected?origin=Boston&destination=Newark </a> </li>
-<li>City.java - Model Class to encapsulate the City Object.The attributes are origin and destination. </li>
-<li>Constants.java - Java Class to hold the constant varaible used in this project. </li>
-<li>CityGraph.java - Graph data structure and populated with city data which get loaded from city.txt file.Each vertex in the graph data structure is one city. </li>
-<li>CityService.java - Service class used to write logic for checking the connection between cities.</li>
-<li>city.txt - The input text file which has the information of the interconneced cities.</li>
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/model/City.java">City.java </a> - Model Class to encapsulate the City Object.The attributes are origin and destination. </li>
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/model/Constants.java">Constants.java</a> - Java Class to hold the constant varaible used in this project. </li>
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/service/CityGraph.java">CityGraph.java</a> - Graph data structure and populated with city data which get loaded from city.txt file.Each vertex in the graph data structure is one city. </li>
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/service/CityService.java">CityService.java</a> - Service class used to write logic for checking the connection between cities.</li>
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/resources/city.txt">city.txt</a> - The input text file which has the information of the interconneced cities.</li>
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/resources/application.properties>application.properties</a>application properties file to store the properties values used in this project.
 </ul>
 
 
