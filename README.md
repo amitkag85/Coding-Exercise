@@ -3,11 +3,11 @@
 <h1> Motivation </h1>
 As part of Recuriment process for Client Master card, building this project to showcase my technical skill in Core Java 8 and Spring Boot.
 The project has a restful UI to check if two cities are connected or not, where orgin and destination are passed in the get request param.
-Sample Restful UI
+Sample Restful UI of this project
 <ul>
-  <li> <a href = http://localhost:8080/connected?origin=Boston&destination=Newark </a> </li>
-  <li> <a href = http://localhost:8080/connected?origin=Boston&destination=Philadelphia </a> </li>
-  <li> <a href = http://localhost:8080/connected?origin=Philadelphia&destination=Albany </a> </li>
+  <li><a href=http://localhost:8080/connected?origin=Boston&destination=Newark </a> </li>
+  <li><a href=http://localhost:8080/connected?origin=Boston&destination=Philadelphia </a> </li>
+  <li><a href=http://localhost:8080/connected?origin=Philadelphia&destination=Albany </a></li>
 </ul>
   
   
@@ -26,7 +26,7 @@ Running Project and Testing screenshot location - https://github.com/neeraj1982/
 
 <h1> Code Example </h1>
 <ul>
-<li>Application.java - Main Spring Boot application file.Please run this to start the Spring Boot Application running in Tomcat on default port 8080. </li>
+<li>Application.java - Main Spring Boot application file.Please run this to start the Spring Boot Application which by default runs in Tomcat on default port 8080. </li>
 <li>CityController.java - RestController which defines the HTTP GET request for checking the connection between cities.Sample URL below.It accept two request 
 param origin and destination. <a href = http://localhost:8080/connected?origin=Boston&destination=Newark </a> </li>
 <li>City.java - Model Class to encapsulate the City Object.The attributes are origin and destination. </li>
