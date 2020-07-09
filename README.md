@@ -4,9 +4,9 @@
 As part of Recuriment process for Client Master card, building this project to showcase my technical skill in Core Java 8 and Spring Boot.
 The project has a restful UI to check if two cities are connected or not, when orgin and destination are passed in the get request param.
 Sample Restful UI
-1. http://localhost:8080/connected?origin=Boston&destination=Newark
-2. http://localhost:8080/connected?origin=Boston&destination=Philadelphia
-3. http://localhost:8080/connected?origin=Philadelphia&destination=Albany
+<li> http://localhost:8080/connected?origin=Boston&destination=Newark </li>
+<li> http://localhost:8080/connected?origin=Boston&destination=Philadelphia <li>
+<li> http://localhost:8080/connected?origin=Philadelphia&destination=Albany <li>
   
   
 <h1> Build status </h1>
