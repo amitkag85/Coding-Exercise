@@ -5,9 +5,9 @@ As part of Recuriment process for Client Master card, building this project to s
 The project has a restful UI to check if two cities are connected or not, where orgin and destination are passed in the get request param.
 Sample Restful UI of this project
 <ul>
-  <li><a href=http://localhost:8080/connected?origin=Boston&destination=Newark </a> </li>
-  <li><a href=http://localhost:8080/connected?origin=Boston&destination=Philadelphia </a> </li>
-  <li><a href=http://localhost:8080/connected?origin=Philadelphia&destination=Albany </a></li>
+  <li><a href=#>http://localhost:8080/connected?origin=Boston&destination=Newark</a></li>
+  <li><a href=#>http://localhost:8080/connected?origin=Boston&destination=Philadelphia</a></li>
+  <li><a href=#>http://localhost:8080/connected?origin=Philadelphia&destination=Albany</a></li>
 </ul>
   
   
@@ -16,7 +16,7 @@ Build : Success
 
 
 <h1> Screenshots </h1>
-Running Project and Testing screenshot location - https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx
+Running Project and Testing screenshot location -<a href=#> https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx </a>
 
 <h1> Programming Language and Framework used </h1>
 <ul>
@@ -40,7 +40,7 @@ param origin and destination. <a href = http://localhost:8080/connected?origin=B
 <h1>Tests</h1>
 Please run the Junit Test cases CityControllerTest.java.
 Screenshot below captures the Junit and Manual Tesing done. 
-https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx
+<a href=#>https://github.com/neeraj1982/Coding-Exercise/blob/master/Testing-ScreenShot.docx </a>
 
 <h1>License</h1>
 Neeraj Kumar
