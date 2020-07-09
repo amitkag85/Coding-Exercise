@@ -27,7 +27,7 @@ Running Project and Testing screenshot location -<a href=#> https://github.com/n
 <h1> Code Example </h1>
 <ul>
 <li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/Application.java">Application.java</a> - Main Spring Boot application file.Please run this to start the Spring Boot Application which by default runs in Tomcat on default port 8080. </li>
-<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/controller/CityController.java">CityController.java</a> - RestController which defines the HTTP GET request for checking the connection between cities.Sample URL below.It accept two request 
+<li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/controller/CityController.java">CityController.java</a> - RestController which defines the HTTP GET request for checking the connection between cities.It accept two request 
 param origin and destination. <a href = http://localhost:8080/connected?origin=Boston&destination=Newark </a> </li>
 <li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/model/City.java">City.java </a> - Model Class to encapsulate the City Object.The attributes are origin and destination. </li>
 <li><a href="https://github.com/neeraj1982/Coding-Exercise/blob/master/src/main/java/com/city/model/Constants.java">Constants.java</a> - Java Class to hold the constant varaible used in this project. </li>
